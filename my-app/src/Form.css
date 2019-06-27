@@ -1,0 +1,24 @@
+.Form {
+    text-align: left;
+}
+
+textarea {
+    width: 500px;
+    height: 400px;
+    background-color: #E6E6FA;
+}
+
+.butn {
+    background: #474c57;
+    color: #ffffff;
+    font-size: 15px;
+    padding:5px 15px; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+  }
+  
+  .butn:hover {
+    background: #5d6473;
+  }

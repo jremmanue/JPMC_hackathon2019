@@ -54,6 +54,7 @@ h2 {
   color:cornflowerblue; 
 }
 
+<<<<<<< HEAD
 #overlay{
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
@@ -74,4 +75,20 @@ h2 {
   font-size: 50px;
   color: white;
   text-align: center; position: absolute; top: 90%; left: 50.5%; transform: translate(-50%, -50%); display: inline-block;
+=======
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#left {
+  padding: 20px 10px;
+  width: 600px;
+  height: 600px;
+}
+#right {
+  padding: 20px 10px;
+  width: 600px;
+  height: 600px;
+>>>>>>> ede1d2efe07e7ac6f42dcf9e3cd54a1f52eeef53
 }
