@@ -1,4 +1,6 @@
 import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import GaugeChart from 'react-gauge-chart'
 import logo from './logo.svg';
 import './App.css';
 import logotest from './images/Final_Logo.jpg'
@@ -24,5 +26,6 @@ function App() {
     </div>
   );
 }
+
 
 export default App;
