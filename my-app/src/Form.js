@@ -5,7 +5,7 @@ class Form extends React.Component {
     validateText = function(e){
         var text = document.getElementById('noter-text-area')
         var sentence = text.value;
-        if (sentence.length >= 10){
+        if (sentence.length >= 180){
             e.preventDefault();
             alert('over text limit');
         }
