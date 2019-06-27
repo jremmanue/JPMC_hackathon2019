@@ -31,3 +31,24 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar { 
+  background: white!important;
+  height: 70px;
+  font-size: 20px;
+}
+
+.navbar-brand{ color: #f4f4f4; cursor: pointer;}
+
+.navbar-collapse{ justify-content: flex-end;}
+
+.logoStyle{position:absolute;
+left:10px;
+top:20px;
+margin: 0px 15px 15px 0px;
+width: 50px
+}
+
+h2 {
+  color:cornflowerblue; 
+}
