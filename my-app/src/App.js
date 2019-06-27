@@ -6,6 +6,7 @@ import './App.css';
 import logotest from './images/Final_Logo.jpg'
 import Overlay from './test'
 import Form from './Form.js'
+import Result from './result-chart.js'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
           <div id="left">
             <Form></Form>
           </div>
-          <div id="right"></div>
+          <div id="right"><Result></Result></div>
         </div>
       </header>
     </div>
