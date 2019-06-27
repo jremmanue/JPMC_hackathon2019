@@ -52,3 +52,19 @@ width: 50px
 h2 {
   color:cornflowerblue; 
 }
+
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#left {
+  padding: 20px 10px;
+  width: 600px;
+  height: 600px;
+}
+#right {
+  padding: 20px 10px;
+  width: 600px;
+  height: 600px;
+}
